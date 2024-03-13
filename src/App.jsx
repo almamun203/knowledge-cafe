@@ -8,7 +8,13 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [bookmarks,setBookmarks]=useState([]);
+  const [readingTime,setReadingTime]=useState(0);
 
+
+  const handleReadingTime=time=>{
+    const newReadingTime=readingTime+time;
+    setReadingTime(newReadingTime);
+  }
 
   const handleAddBookmark = blog=>{
     const newBookmarks = [...bookmarks,blog];
@@ -18,8 +24,8 @@ function App() {
     <>
       <Header></Header>
       <div className='md:flex md:justify-between'>
-      <Blogs handleAddBookmark={handleAddBookmark}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks> 
+      <Blogs handleAddBookmark={handleAddBookmark} handleReadingTime={handleReadingTime}></Blogs>
+      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks> 
       </div>
       
     </>

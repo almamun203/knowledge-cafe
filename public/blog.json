@@ -1,0 +1,53 @@
+[
+    {
+      "Id": 1,
+      "cover_photo": "https://i.ibb.co/k9zBrpj/istockphoto-182509479-1024x1024.jpg",
+      "title": "The Art of Programming",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/BzRRN53/istockphoto-1338134336-1024x1024.jpg",
+      "posted_date": "2024-03-13",
+      "reading_time": "15",
+      "hashtags": ["programming", "coding", "development"]
+    },
+    {
+      "Id": 2,
+      "cover_photo": "https://i.ibb.co/MNWPRw0/istockphoto-918158566-1024x1024.jpg",
+      "title": "Exploring the Universe",
+      "author": "Jack Johnson",
+      "author_img": "https://i.ibb.co/5T6d0w7/istockphoto-1682296067-1024x1024.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": "20",
+      "hashtags": ["space", "astronomy", "science"]
+    },
+    {
+      "Id": 3,
+      "cover_photo": "https://i.ibb.co/2g9N4by/istockphoto-1295819436-1024x1024.jpg",
+      "title": "Cooking Adventures",
+      "author": "David Lee",
+      "author_img": "https://i.ibb.co/KhHZCc7/istockphoto-1388253782-1024x1024.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": "25",
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "Id": 4,
+      "cover_photo": "https://i.ibb.co/jwBBm4S/istockphoto-1461608537-1024x1024.jpg",
+      "title": "Fitness and Health",
+      "author": "Emily Brown",
+      "author_img": "https://i.ibb.co/qnmyrCM/istockphoto-1437816897-1024x1024.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": "30",
+      "hashtags": ["fitness", "health", "wellness"]
+    },
+    {
+      "Id": 5,
+      "cover_photo": "https://i.ibb.co/qMWDrQt/istockphoto-1821996152-1024x1024.jpg",
+      "title": "Travel Diaries",
+      "author": "Michael Wilson",
+      "author_img": "https://i.ibb.co/93t4XHj/istockphoto-1476170969-1024x1024.jpg",
+      "posted_date": "2024-03-09",
+      "reading_time": "40",
+      "hashtags": ["travel", "adventure", "explore"]
+    }
+  ]
+  

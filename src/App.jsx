@@ -11,9 +11,16 @@ function App() {
   const [readingTime,setReadingTime]=useState(0);
 
 
-  const handleReadingTime=time=>{
-    const newReadingTime=readingTime+time;
+  const handleReadingTime=(Id,time)=>{
+    const times = +time;
+    const newReadingTime=readingTime + times;
     setReadingTime(newReadingTime);
+    
+    console.log('remove bookmark', Id); 
+    const remainingBookmarks = bookmarks.filter(bookmark=>bookmark.Id !== Id);
+    setBookmarks(remainingBookmarks);
+    
+
   }
 
   const handleAddBookmark = blog=>{
@@ -24,7 +31,7 @@ function App() {
     <>
       <Header></Header>
       <div className='md:flex md:justify-between'>
-      <Blogs handleAddBookmark={handleAddBookmark} handleReadingTime={handleReadingTime}></Blogs>
+      <Blogs  handleAddBookmark={handleAddBookmark} handleReadingTime={handleReadingTime}></Blogs>
       <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks> 
       </div>
       
